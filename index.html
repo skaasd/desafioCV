@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body class="roboto-regular">
-    <nav class="navbar navbar-expand-lg background-pink">
+    <nav class="navbar navbar-expand-lg background-pink fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Magdalena Mahncke</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,41 +38,93 @@
                 <div class="col-4">
                     <img src="./assets/img/1649263365575.jpg" class="img-fluid rounded-circle border border-pink" alt="Mi Foto CV">
                 </div>
+            </div> 
+        </div>
+      </section>
+      <section id="educacion">
+        <div class="titulo">
+            <h1>Educación</h1>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <h3>Título Universitario</h3>
+                    <ul >
+                        <li>Ingeniera en Informática y Gestión - Universidad Diego Portales</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Certificaciones</h3>
+                    <ul>
+                        <li>PSM I - Scrum.org</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Cursos</h3>
+                    <ul>
+                        <li>Automatización con Selenium (2022) - Udemy</li>
+                        <li>Automatización con Cypress (2022 - Udemy)</li>
+                        <li>Pyspark (2023) - Udemy</li>
+                        <li>Bootcamp Fullstack (En curso) - Desafio latam</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+      </section>
+
+      <section id="experiencia">
+        <div class="titulo">
+            <h1>Experiencia</h1>
+        </div>
+        <div class="accordion mt-3">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Ingeniera QA
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Experiencia como QA manual de 6 años tanto en front como en backend.</p>
+                  <p>4 años de experiencia en QA automatizado utilizando Selenium con Java.</p>
+                </div>
+              </div>
             </div>
-            
-            
-            
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Programadora freelance
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Desarrollo de páginas web en C#</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section id="portafolio">
+        <div class="titulo">
+            <h4>Mi Portafolio</h4>
+        </div>
+        <div class="border rounded">
+            <a href="miPortafolio.html">Acceda a Mi Portafolio</a>
         </div>
       </section>
     
-    <br>
-    <h2></h2>
-    <h3>Resumen</h3>
-    <p>
-        Ingeniera QA con 6 años de experiencia. Graduada como Ingeniera en Informática y Gestión de la Universidad Diego Portales
-        <br>
-        He participado de diversos proyectos de desarrollo de Software en la etapa del aseguramiento de calidad, realizando todas las tareas necesarias
-        para poder asegurar que el Software desarrollo cumpla con sus requerimientos y estándares de calidad establecidos. <br>
-        Cuento con experiencia en variadas industrias y tecnologías.
-    </p>
-    <h3>Datos Personales</h3>
-        <ul>
-            <li>Nombre: Magdalena Sofia Mahncke Fernandez</li>
-            <li>Numero de Teléfono: +56977065096</li>
-            <li>Email: mfdezm18@gmail.com</li>
-            <li>Ubicación: Santiago, Chile</li>
-        </ul>
-    <h3>Conocimientos y Herramientas</h3>
-        <ol>
-            <li>Java</li>
-            <li>Selenium</li>
-            <li>Postman</li>
-            <li>GCP and Azure</li>
-            <li>Jmeter</li>
-            <li>Python</li>
-        </ol>
-    <h4>Mi Portafolio</h4>
-    <a href="miPortafolio.html">Acceda a Mi Portafolio</a>
+    
+
+    <footer class="pt-3 pb-3 background-pink">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="mb-0">
+                  <p class="text-center roboto-light mb-0 color-gray">Magdalena Mahncke</p>
+                </div>
+            </div>
+        </div>
+      </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
